@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a6a0ab9af2a5344aa81893f99923b31, type: 3}
+  m_Name: DeckArcSettings
+  m_EditorClassIdentifier: 
+  disabled: 0
+  deckArcAngle: 45
+  arcRadius: 1450
+  rotationSpeed: 30
+  cardReturnSpeed: 2500
