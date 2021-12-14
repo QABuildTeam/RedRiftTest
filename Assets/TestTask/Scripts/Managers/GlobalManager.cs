@@ -49,7 +49,7 @@ namespace TestTask
 
         private void RegisterServices()
         {
-            // all ServiceProvider components must reside in the very same GameObject where MCGlobal belongs
+            // all ServiceProvider components must reside in the very same GameObject where GlobalManager belongs
             foreach (var service in GetComponents<ServiceProvider>())
             {
                 if (!service.Disabled)
